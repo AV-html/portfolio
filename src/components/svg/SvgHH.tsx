@@ -14,7 +14,7 @@ type PropsType = {
 export function SvgHH({baseColor}: PropsType) {
 
     return (
-        <svg className={svg.svg} width="48" height="48" fill="none" viewBox="0 0 48 48">
+        <svg className={svg.svg} fill="none" viewBox="0 0 48 48">
             <path className={svg.bg} fill={baseColor}
                   d="M24 48c13.255 0 24-10.745 24-24S37.255 0 24 0 0 10.745 0 24s10.745 24 24 24z"/>
             <path fill="#fefefe"
