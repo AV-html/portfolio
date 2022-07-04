@@ -1,0 +1,8 @@
+.svg path {
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.svg:hover path {
+    fill: #C0C0C0;
+}
+

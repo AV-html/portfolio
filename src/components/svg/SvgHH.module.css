@@ -1,0 +1,8 @@
+.svg .bg {
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.svg:hover .bg {
+    fill: #D6001C;
+}
+
