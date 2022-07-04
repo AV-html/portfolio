@@ -1,3 +1,41 @@
 .footer {
+    padding: 50px 0 25px 0;
+    border: 1px solid #000;
+}
 
+.name {
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: 0.15em;
+    color: #292929;
+    text-align: center;
+
+    margin-bottom: 60px;
+}
+
+.name span {
+    font-weight: 700;
+}
+
+.socials {
+    display: flex;
+
+    width: 252px;
+    margin: 0 auto 40px;
+}
+
+.item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.link {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+}
+
+.copy {
+    border-top: 2px solid #292929;
+    padding-top: 25px;
+    color: #5D5D5D;
 }
