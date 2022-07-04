@@ -1,0 +1,9 @@
+.item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.link {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+}
