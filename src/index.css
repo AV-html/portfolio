@@ -14,21 +14,24 @@ ul {
     list-style: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body, html {
     height: 100%;
+
 }
 
 #root {
     height: 100%;
 }
 
+
 body {
     font-family: 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
-    background-color: #f7f7f7;
 }
 
 code {
