@@ -21,7 +21,7 @@ export function Socials() {
             <SocialItem href={'https://vk.com/avtofront'}>
                 <SvgVk/>
             </SocialItem>
-            
+
             <SocialItem href={'https://github.com/AV-html'}>
                 <SvgGithub/>
             </SocialItem>
