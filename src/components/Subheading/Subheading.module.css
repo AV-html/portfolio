@@ -44,3 +44,9 @@
     bottom: 0;
     left: calc(50% - 6px);
 }
+
+@media (max-width: 767px) {
+    .subheading {
+        font-size: 30px;
+    }
+}

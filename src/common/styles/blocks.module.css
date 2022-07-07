@@ -5,11 +5,11 @@
     color: #292929;
 }
 
-.subheading {
-
-}
-
 .title {
-
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 130%;
+    color: #292929;
+    text-align: center;
 }
 

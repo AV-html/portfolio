@@ -12,10 +12,10 @@ export function Start() {
             <div className={`${holder.container} ${start.row}`}>
                 <div className={start.body}>
                     <h1 className={start.heading}>
-                        <span className={start.name}>Alexander&#160;Volkov</span> <span
-                        className={start.dev}>Front-end&#160;Developer</span>
+                        <span className={start.name}><span>Alexander</span> Volkov</span> <span
+                        className={start.dev}>Front-end Developer</span>
                     </h1>
-                    
+
                     <ButtonLink href={'#contacts'}
                                 className={start.link}
                     >
