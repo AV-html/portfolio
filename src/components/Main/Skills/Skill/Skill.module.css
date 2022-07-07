@@ -1,0 +1,94 @@
+.column {
+    flex: 0 1 25%;
+    padding: 20px;
+}
+
+.skill {
+    padding: 25px 25px 40px;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 100%;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.skill:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+    height: 142px;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.logo svg {
+    position: absolute;
+    top: 30px; /* 21 */
+    left: 50%;
+
+    transform: translate(-50%, 0);
+    width: 80px;
+    height: 80px;
+}
+
+/*.logo svg::before {*/
+/*    content: '';*/
+
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    border: 3px solid #000;*/
+/*    width: 300px;*/
+/*    height: 300px;*/
+/*}*/
+
+.logo:before {
+    content: '';
+
+    position: absolute;
+    top: 21px;
+    left: 50%;
+
+    transform: translate(-50%, 0) rotate(-45deg);
+    width: 100px;
+    height: 100px;
+    background: #F7F7F7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+
+.title {
+    margin-bottom: 15px;
+}
+
+.text {
+
+}
+
+
+@media (max-width: 1335px) {
+    .column {
+        flex: 0 1 33.3334%;
+    }
+}
+
+@media (max-width: 950px) {
+    .column {
+        flex: 0 1 50%;
+    }
+}
+
+@media (max-width: 670px) {
+    .column {
+        flex: 0 1 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 490px) {
+    .column {
+        flex: 0 1 100%;
+    }
+}
