@@ -3,7 +3,7 @@ import React from 'react';
 import start from './Start.module.css'
 import holder from './../../../common/styles/container.module.css'
 
-import avatar from './../../../static/480x640.png'
+import avatar from '../../../common/static/480x640.png'
 import {ButtonLink} from '../../ButtonLink/ButtonLink';
 
 export function Start() {

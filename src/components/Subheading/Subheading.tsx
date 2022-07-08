@@ -7,7 +7,7 @@ type PropsType = {
 }
 
 
-export function Subheading({children, className}: PropsType) {
+export const Subheading: React.FC<PropsType> = React.memo(({children, className}) => {
     return (
         <h2 className={`${className} ${subheading.subheading}`}>
             <span className={subheading.text}>
@@ -16,4 +16,4 @@ export function Subheading({children, className}: PropsType) {
             </span>
         </h2>
     );
-}
+})

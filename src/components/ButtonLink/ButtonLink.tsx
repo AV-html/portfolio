@@ -1,17 +1,17 @@
 import React, {AnchorHTMLAttributes, DetailedHTMLProps} from 'react';
-import button from './ButtonLink.module.css'
+import button from '../../common/styles/Buttons.module.css'
 
 
 type PropsType = DetailedHTMLProps<AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>
 
 
-export function ButtonLink(props: PropsType) {
+export function ButtonLink({className, children, target, ...restProps}: PropsType) {
     return (
-        <a href={props.href}
-           className={`${props.className} ${button.button}`}
-           target={props.target}
+        <a
+            className={`${className} ${button.button}`}
+            {...restProps}
         >
-            {props.children}
+            {children}
         </a>
     );
 }

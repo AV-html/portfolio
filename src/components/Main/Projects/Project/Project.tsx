@@ -22,6 +22,7 @@ export function Project(props: PropsType) {
                         href={props.linkToProject}
                         className={project.button}
                         target={'_blank'}
+                        rel={'noopener noreferrer'}
                     >
                         View
                     </ButtonLink>

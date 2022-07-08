@@ -6,7 +6,7 @@ import styles from './../../common/styles/container.module.css'
 import header from './Header.module.css'
 
 
-export function Header() {
+export const Header = React.memo(() => {
     return (
         <header className={header.header}>
             <div className={styles.container}>
@@ -14,4 +14,4 @@ export function Header() {
             </div>
         </header>
     );
-}
+})

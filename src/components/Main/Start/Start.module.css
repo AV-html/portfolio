@@ -1,11 +1,12 @@
 .start {
     height: 100vh;
-    padding: 20vh 0 6vh;
+    padding-top: 10vh;
 
     background-color: #292929;
 }
 
 .row {
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -73,7 +74,7 @@
 @media (max-width: 1240px) {
     .start {
         height: auto;
-        padding: 15vh 0 6vh;
+        padding: 105px 0 30px;
     }
 
     .row {
@@ -103,12 +104,9 @@
         width: 46.875%;
         padding-bottom: 62.5%;
     }
-
-
 }
 
 @media (max-width: 737px) {
-
     .heading {
         font-size: 36px;
     }
@@ -139,7 +137,9 @@
 
 @media (max-width: 470px) {
     .start {
+        padding-top: 85px;
     }
+
 
     .image {
         margin-bottom: 35px;

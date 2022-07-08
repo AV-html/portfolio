@@ -3,7 +3,7 @@ import React from 'react';
 import nav from './Nav.module.css'
 
 
-export function Nav() {
+export const Nav = React.memo(() => {
     return (
         <nav className={nav.nav}>
             <ul className={nav.menu}>
@@ -22,4 +22,4 @@ export function Nav() {
             </ul>
         </nav>
     );
-}
+})
