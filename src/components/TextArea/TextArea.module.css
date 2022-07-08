@@ -1,0 +1,6 @@
+.textarea {
+    resize: vertical;
+    height: 90px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
